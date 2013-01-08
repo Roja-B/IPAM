@@ -1,0 +1,28 @@
+ProgramID	ProgramCode	ProgramName	ProgramStartDate	ProgramEndDate
+133	FG2000	Functional Genomics	9/18/2000	12/15/2000
+121	GBM2001	Geometrically Based Motions	3/27/2001	6/15/2001
+112	CFT2001	Conformal Field Theory and Applications	9/10/2001	12/14/2001
+120	CN2002	Large Scale Communication Networks	3/11/2002	6/15/2002
+119	NANO2002	Mathematics in Nanoscale Science and Engineering	9/16/2002	12/13/2002
+109	SGP2003	Symplectic Geometry and Physics	3/17/2003	6/13/2003
+144	INV2003	Inverse Problems: Computational Methods and Emerging Applications	9/8/2003	12/12/2003
+145	PROT2004	"Proteomics: Sequence, Structure, Function"	3/8/2004	6/11/2004
+192	MGA2004	Multiscale Geometry and Analysis in High Dimensions	9/7/2004	12/17/2004
+193	PCA2005	Grand Challenge Problems in Computational Astrophysics	3/7/2005	6/10/2005
+480	MA2005	Bridging Time and Length Scales in Materials Science and Bio-Physics	9/12/2005	12/16/2005
+499	CM2006	"Cells and Materials: At the Interface between Mathematics, Biology and Engineering"	3/13/2006	6/16/2006
+948	SC2006	Securing Cyberspace: Applications and Foundations of Cryptography and Computer Security	9/11/2006	12/15/2006
+965	RS2007	Random Shapes	3/12/2007	6/15/2007
+1304	SE2007	Mathematics of Knowledge and Search Engines	9/10/2007	12/14/2007
+1305	OT2008	Optimal Transport	3/10/2008	6/13/2008
+1745	MRA2008	"Internet Multi-Resolution Analysis: Foundations, Applications and Practice"	9/8/2008	12/12/2008
+1756	KT2009	"Quantum and Kinetic Transport: Analysis, Computations, and New Applications"	3/9/2009	6/12/2009
+2027	CMA2009	Combinatorics: Methods and Applications in Mathematics and Computer Science	9/8/2009	12/11/2009
+2189	CL2010	Model and Data Hierarchies for Simulating and Understanding Climate	3/8/2010	6/11/2010
+2398	OP2010	Modern Trends in Optimization and Its Application	9/13/2010	12/17/2010
+2405	ccs2011	Navigating Chemical Compound Space for Materials and Bio Design	3/14/2011	6/17/2011
+2705	gen2011	Mathematical and Computational Approaches in High-Throughput Genomics	9/12/2011	12/16/2011
+2707	pl2012	Computational Methods in High Energy Density Plasmas	3/12/2012	6/15/2012
+3087	md2012	"Materials Defects: Mathematics, Computation, and Engineering"	9/10/2012	12/14/2012
+3088	iag2013	Interactions Between Analysis and Geometry	3/11/2013	6/14/2013
+3171	mse2013	Materials for a Sustainable Energy Future	9/9/2013	12/13/2013
