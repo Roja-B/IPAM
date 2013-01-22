@@ -83,6 +83,7 @@ for line in f:
 			t1.write(str(prog1)+' '+str(prog2)+' '+str(weight)+'\n')
 			edges = edges+1
 	t1.close()
+	if numPrograms<2: continue
 	combinations = nCr(numPrograms,2)
 	eDensity = round(edges/combinations,sigDigit)
 #print "There were "+str(len(eliminations)) +" eliminations with a minimum threshold of "+str(voteThreshold)+" votes."

@@ -21,8 +21,10 @@ while year <= END_YEAR+1-WINDOW:
 		bgraphname = PATH+"/myIntermediateFiles/Bipartite/Bipartite"+'_'+str(START_YEAR)+'_'+str(year+WINDOW-1)
 	t.write(bgraphname+"\n")
 	tt = open(bgraphname,"w")
-#        for n in range(year,year+WINDOW):
+#        if MODE == "NORMAL": 
+	#for n in range(year,year+WINDOW):
 	# to aggregate from start year:
+#	elif MODE == "AGGREGATE":
 	for n in range(START_YEAR,year+WINDOW):
 		f = open(PATH+"/myIntermediateFiles/TemporalGraphs/EdgeList"+str(n),"r")
 		for line in f: tt.write(line)

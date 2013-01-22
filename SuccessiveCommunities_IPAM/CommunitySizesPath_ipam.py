@@ -21,7 +21,8 @@ for year in years:
 print dirs
 time = 0
 for (year,entry) in zip(years,dirs):
-    f=open(PATH+"/myResults/{0}/communityStats".format(entry),"r")
+    try: f=open(PATH+"/myResults/{0}/communityStats".format(entry),"r")
+    except: continue
     f.readline()
     print "========================== C",year
     for line in f:

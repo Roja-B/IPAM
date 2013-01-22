@@ -11,6 +11,13 @@ results <- clustergraph(G)
 memberships <- list(membership=results$membership,csize=results$csize)
 modularity <- results[3]
 V(G)$community <- memberships$membership
+write.graph(G,"ipam.gml",format="gml")
+write.graph(G,"ipam.graphml",format="graphml")
+write.graph(G,"ipam.ncol",format="ncol")
+write.graph(G,"ipam.lgl",format="lgl")
+write.graph(G,"ipam.edgelist",format="edgelist")
+write.graph(G,"ipam.net",format="pajek")
+write.graph(G,"ipam.edges",format="edgelist")
 # save the names of vertices belonging to each cluster in a separate file.
 N= length(memberships$csize)
 source("vertexwrite.R")

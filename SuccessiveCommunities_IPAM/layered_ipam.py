@@ -14,7 +14,7 @@ for line in f2:
 	node = line.split()[0]
 	nodesize = int(line.split()[2])
 	nodesizes[node] = nodesize
-
+print nodesizes
 #print nodesizes
 
 for line in f1:

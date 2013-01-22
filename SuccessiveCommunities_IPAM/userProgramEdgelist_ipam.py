@@ -6,10 +6,9 @@
 #END_YEAR = 2013
 
 from PARAMETERS import *
-#OmitEmails = {"rcaflisch@ipam.ucla.edu"}
 
-#OmitEmails = []
-f = open(DataPATH+"/IPAM_Data.txt","r")
+#f = open(DataPATH+"/IPAM_Data.txt","r")
+f = open(DataPATH+"/Mapped_Data.txt","r")
 t = open(PATH+"/myIntermediateFiles/EdgeListPlusDates","w")
 OMIT = open(DataPATH+"/OMITlist").read()
 programs = dict()

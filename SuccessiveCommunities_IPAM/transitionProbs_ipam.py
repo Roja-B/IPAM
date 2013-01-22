@@ -126,8 +126,11 @@ while year <= END_YEAR-WINDOW-SLIDE+1:
         	dirname1 = ''.join([PATH,"/myResults/",str(START_YEAR),str(year+WINDOW-1)])
 	        dirname2 = ''.join([PATH,"/myResults/",str(START_YEAR),str(year+SLIDE+WINDOW-1)])
 	print dirname1,dirname2
-	f1 = open(''.join([dirname1,"/NumComsAndModularities"])).readline()
-        try:f2 = open(''.join([dirname2+"/NumComsAndModularities"])).readline()
+	try: f1 = open(''.join([dirname1,"/NumComsAndModularities"])).readline()
+	except: 
+		year += SLIDE
+		continue
+        try: f2 = open(''.join([dirname2+"/NumComsAndModularities"])).readline()
 	except: 
 		print "reached end of list", dirname2
 		break

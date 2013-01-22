@@ -9,9 +9,12 @@ mkdir myRawData
 mkdir myResults
 
 cp IPAM_Data.txt myRawData/
+cp Program_Mapping myRawData/
 cp ResolvedEmails myRawData/
 cp OMITlist myRawData/
 
+python map_programs.py # to map sub-programs to their respective long programs
+echo map_programs
 python userProgramEdgelist_ipam.py # to create edgelists
 echo userProgramEdgelist_ipam
 python resolveEmails_ipam.py # to resolve emails
@@ -28,12 +31,12 @@ ufilenames=$(ls myIntermediateFiles/Unipartite/)
 pfilenames=$(ls myIntermediateFiles/Programs/)
 for filename in $bfilenames; do
         dirname=$(echo $filename | tr -dc "[:digit:]")
+        mkdir myResults/$dirname
         echo $dirname
         cp myIntermediateFiles/Bipartite/$filename myResults/$dirname/bipartite.txt
 done
 for filename in $ufilenames; do
         dirname=$(echo $filename | tr -dc "[:digit:]") # create directories named by year
-        mkdir myResults/$dirname
         cp myIntermediateFiles/Unipartite/$filename myResults/$dirname/unipartite.txt
 done
 for filename in $pfilenames; do
