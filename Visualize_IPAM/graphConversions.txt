@@ -1,0 +1,68 @@
+ls()
+library(igraph)
+V(G)
+V(G)$size
+V(G)$sizes
+progsizes<-read.table("/media/data2/roja/Dropbox/Research/Projects/IPAM2012/IPAM\ Project\programSizes.csv",header=FALSE,sep=",")
+progsizes<-read.table("/media/data2/roja/Dropbox/Research/Projects/IPAM2012/IPAM\ Project/programSizes.csv",header=FALSE,sep=",")
+progsizes<-read.table("/media/data2/roja/Dropbox/Research/Projects/IPAM2012/IPAM Project/programSizes.csv",header=FALSE,sep=",")
+progsizes<-read.table("/media/data2/roja/Dropbox/Research/Projects/IPAM2012/programSizes.csv",header=FALSE,sep=",")
+progsizes<-read.table("/media/data2/roja/Dropbox/Research/Projects/IPAM2012/IPAM \Project/programSizes.csv ",header=FALSE,sep=",")
+progsizes<-read.table("/media/data2/roja/Dropbox/Research/Projects/IPAM2012/programSizes.csv",header=FALSE,sep=",")
+progsizes
+V(G)
+which(V(G))==progsizes$V1[1]
+which(V(G)==progsizes$V1[1])
+progsizes$V1
+progsizes$V1[0]
+progsizes$V1[1]
+progsizes$V1 == V(G)
+V(G)
+progsizes$V1
+progsizes$V1[6]
+progsizes$V1[[6]]
+progsizes$V1[7]
+which(V(G)$name == progsizes$V1[7])
+V(G)$name
+V(G)[which(V(G)$name == progsizes$V1[1])
+progsizes$V1
+V(G)[0]
+V(G)[which(V(G)$name == progsizes$V1[1])-1] <- progsizes$V1[2]
+V(G)[which(V(G)$name == progsizes$V1[1])-1]$size <- progsizes$V1[2]
+V(G)$size
+q()
+V(G)[which(V(G)$name == progsizes$V1[1])-1]$size <- progsizes$V2[1]
+library(igraph)
+V(G)[which(V(G)$name == progsizes$V1[1])-1]$size <- progsizes$V2[1]
+V(G)$size
+ls()
+q()
+ls()
+library(igraph)
+V(G)$size
+V(G)
+q()
+ls()
+library(igraph)
+V(G)$size
+write.graph(G,"ipam.xml",format="graphml")
+q()
+ls()
+write.graph(G,"ipam.xml",format="ncol")
+library(igraph)
+write.graph(G,"ipam.lgl",format="ncol")
+q()
+library(igraph)
+write.graph(G,"ipam.dot",format="dot")
+q()
+library(igraph)
+write.graph(G,"ipam.gml",format="gml")
+write.graph(G,"ipam.graphml",format="graphml")
+write.graph(G,"ipam.ncol",format="ncol")
+write.graph(G,"ipam.lgl",format="lgl")
+write.graph(G,"ipam.edgelist",format="edgelist")
+write.graph(G,"ipam.net",format="pajek")
+write.graph(G,"ipam.edges",format="edgelist")
+q()
+progsizes<-read.table("/media/data2/roja/Dropbox/Research/Projects/IPAM2012/IPAM \Project/programSizes.csv ",header=FALSE,sep=",")
+q()
