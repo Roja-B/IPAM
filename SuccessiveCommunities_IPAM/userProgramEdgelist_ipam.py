@@ -6,7 +6,7 @@
 #END_YEAR = 2013
 
 from PARAMETERS import *
-
+from string import upper
 #f = open(DataPATH+"/IPAM_Data.txt","r")
 f = open(DataPATH+"/Mapped_Data.txt","r")
 t = open(PATH+"/myIntermediateFiles/EdgeListPlusDates","w")
@@ -30,7 +30,7 @@ for line in f:
 		print line
 		continue
 	programs[int(programYear)].add(programID)
-	t.write(programID+'\t'+programYear+'\t'+email+'\n')
+	t.write(upper(programID)+'\t'+programYear+'\t'+email+'\n')
 #print programs
 f.close()
 t.close()
